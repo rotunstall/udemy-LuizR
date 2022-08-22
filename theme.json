@@ -1,0 +1,155 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": false,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                { "slug": "ulr-white", "color": "rgb(255,255,255)", "name": "Udemy_LuizR White" },
+                { "slug": "ulr-gray-100", "color": "rgb(243 244 246)", "name": "Udemy_LuizR Gray 100" },
+                { "slug": "ulr-gray-200", "color": "rgb(229 231 235)", "name": "Udemy_LuizR Gray 200" },
+                { "slug": "ulr-gray-300", "color": "rgb(209 213 219)", "name": "Udemy_LuizR Gray 300" },
+                { "slug": "ulr-gray-400", "color": "rgb(156 163 175)", "name": "Udemy_LuizR Gray 400" },
+                { "slug": "ulr-gray-500", "color": "rgb(107 114 128)", "name": "Udemy_LuizR Gray 500" },
+                { "slug": "ulr-gray-600", "color": "rgb(75 85 99)", "name": "Udemy_LuizR Gray 600" },
+                { "slug": "ulr-gray-700", "color": "rgb(55 65 81)", "name": "Udemy_LuizR Gray 700" },
+                { "slug": "ulr-gray-800", "color": "rgb(31 41 55)", "name": "Udemy_LuizR Gray 800" },
+                { "slug": "ulr-gray-900", "color": "rgb(17 24 39)", "name": "Udemy_LuizR Gray 900" },
+                { "slug": "ulr-primary", "color": "rgb(239 68 68)", "name": "Udemy_LuizR Primary" },
+                { "slug": "ulr-accent", "color": "rgb(67 56 202)", "name": "Udemy_LuizR Accent" },
+                { "slug": "ulr-success", "color": "rgb(52 211 153)", "name": "Udemy_LuizR Success" },
+                { "slug": "ulr-info", "color": "rgb(96 165 250)", "name": "Udemy_LuizR Info" },
+                { "slug": "ulr-warning", "color": "rgb(251 146 60)", "name": "Udemy_LuizR Warning" },
+                { "slug": "ulr-danger", "color": "rgb(236 72 153)", "name": "Udemy_LuizR Danger" }
+                
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": true,
+            "duotone": [
+                { "slug": "ulr-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "Udemy_LuizR Pink Sunset" }
+            ],
+            "defaultGradients": false,
+            "gradients": [
+                {"slug": "ulr-summer-dog", "name": "Udemy_LuizR Summer Dog", "gradient": "linear-gradient(#a8ff78, #78ffd6)"}
+            ]
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": true,
+                    "palette": [
+                        {"slug": "ulr-primary", "color": "#ef4444", "name": "Udemy_LuizR Primary"}
+                    ],
+                    "link": true,
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                },
+                "typography": {
+                    "fontFamilies": [
+                        { "fontFamily": "Pacifico, cursive", "slug": "ulr-pacifico", "name": "Udemy-LuizR Pacifico" }
+                    ]
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": false
+        },
+        "typography": {
+            "fontFamilies": [
+                { "fontFamily": "Rubik, san-serif", "slug": "ulr-rubik", "name": "Udemy-LuizR Rubik" }
+            ],
+            "fontSizes": [
+                { "slug": "small", "name": "Small", "size": "0.75rem" },
+                { "slug": "medium", "name": "Medium", "size": "1.25rem" },
+                { "slug": "large", "name": "Large", "size": "2.25rem" },
+                { "slug": "x-large", "name": "Extra Large", "size": "3rem" },
+                { "slug": "gigantic", "name": "Gigantic", "size": "3.75rem" }
+            ],
+            "lineHeight": true,
+            "dropCap": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "letterSpacing": true,
+            "textDecoration": true
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [ "px", "rem", "vh", "vw", "%" ],
+            "blockGap": true
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--ulr-gray-700)",
+            "background": "var(--wp--preset--color--ulr-white)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                   "text": "var(--wp--preset--color--ulr-primary)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "gradient": "var(--wp--preset--gradient--ulr-summer-dog)"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--ulr-primary)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--ulr-pacifico)"
+                }
+            }
+
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font--family--ulr-rubik)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none",
+            "letterSpacing": "normal"
+        },
+        "spacing": {
+            "margin": {"top": "0", "right": "0", "bottom": "0", "left": "0"},
+            "padding": {"top": "0", "right": "0", "bottom": "0", "left": "0"},
+            "blockGap": "4rem"
+        }
+    }
+}
